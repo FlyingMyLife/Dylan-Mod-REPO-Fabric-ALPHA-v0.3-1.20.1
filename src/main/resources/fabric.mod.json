@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "flying_machines",
+  "version": "${0.3}",
+  "name": "DylanMod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/flyin/DylanMod"
+  },
+  "license": "MIT",
+  "icon": "assets/flying_machines/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.packages.flying_machines.flying_machinesClient"
+    ],
+    "main": [
+      "net.packages.flying_machines.flying_machines"
+    ]
+  },
+  "mixins": [
+    "flying_machines.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

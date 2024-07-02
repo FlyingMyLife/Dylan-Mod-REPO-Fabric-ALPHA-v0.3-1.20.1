@@ -1,0 +1,14 @@
+{
+  "dylan_hurt_sound": {
+    "subtitle": "sounds.flying_machines.dylan_hurt_sound",
+    "sounds": [
+      "flying_machines:dylan_hurt_sound_0"
+    ]
+  },
+  "dylan_death_sound": {
+    "subtitle": "sounds.flying_machines.dylan_death_sound",
+    "sounds": [
+      "flying_machines:dylan_death_sound_0"
+    ]
+  }
+}

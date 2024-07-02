@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bb",
+    "B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "b": {
+      "item": "minecraft:beef"
+    }
+  },
+  "result": {
+    "item": "flying_machines:beef_tartare",
+    "count": 2
+  }
+}
