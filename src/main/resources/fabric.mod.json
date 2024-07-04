@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "flying_machines",
+  "version": "${0.3}",
+  "name": "DylanMod",
+  "description": "",
+  "authors": [
+    "FLyingMyLife",
+    "Dead Dylan texture by: lololowka.fans993"
+  ],
+  "contact": {
+    "repo": "https://github.com/FlyingMyLife/Dylan-Mod-REPO-Fabric-ALPHA-v0.3"
+  },
+  "license": "MIT",
+  "icon": "assets/flying_machines/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.packages.flying_machines.flying_machinesClient"
+    ],
+    "main": [
+
+      "net.packages.flying_machines.flying_machines"
+
+    ]
+  },
+  "mixins": [
+    "flying_machines.mixins.json"
+  ],
+
+  "depends": {
+    "create": ">=0.5.0",
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

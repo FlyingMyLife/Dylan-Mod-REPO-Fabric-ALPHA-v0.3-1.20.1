@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "credits": "[Let's Do] Candlelight",
+  "textures": {
+    "layer0": "flying_machines:item/dylan_mk1_scheme"
+  }
+}
